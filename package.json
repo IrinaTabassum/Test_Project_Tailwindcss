@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
-    "postinstall": "npm run build",
+    "build": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css",
     "start": "node server.js"
   },
   "keywords": [],
