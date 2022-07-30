@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css",
+    "postinstall": "npm run build",
     "start": "node server.js"
   },
   "keywords": [],
